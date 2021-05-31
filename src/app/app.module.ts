@@ -22,12 +22,18 @@ import { MatSelectModule } from '@angular/material/select';
 
 //flex layout
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { LandingComponent } from './@core/landing/landing.component';
+import { InputComponent } from './@core/input/input.component';
+import { OutputComponent } from './@core/output/output.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LandingComponent,
+    InputComponent,
+    OutputComponent
   ],
   imports: [
     FlexLayoutModule,
